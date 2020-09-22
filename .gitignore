@@ -1,0 +1,41 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignoreable files
+*.nuget.props
+*.nuget.targets
+
+# FAKE - F# Make
+.fake/
+
+# Ionide - VSCode F# extension - https://github.com/ionide/ionide-vscode-fsharp
+.ionide/
+
+### F# ###
+lib/debug
+lib/release
+Debug
+*.suo
+*.user
+obj
+bin
+*.exe
